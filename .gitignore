@@ -1,0 +1,31 @@
+# AWS Deployment
+deployment-info.json
+dist-config.json
+invalidation.json
+bucket-policy.json
+distribution-config.json
+
+# Build
+dist/
+coverage/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.vercel
+.env*.local
+node_modules
